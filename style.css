@@ -1,0 +1,273 @@
+
+/* ESTILO GERAL */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kenia', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: black;
+    height: 100vh;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+}
+
+.bnt-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #0f0;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 5s;
+ }
+
+h2.titulo{
+    color: #efefef;
+    font-size: 38px;
+    text-align: center;
+}
+
+h2.titulo span{
+    color:#a10606;
+}
+ /* ESTILO DO CABEÇALHO */
+header{
+    padding: 40px 4%;
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header A{
+    color: #efefef;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header a:hover{
+    color: #fff;
+    transform: scale(1.12);
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+.bnt-contato button:hover{
+    box-shadow: 0px 0px 8px #a10606;
+    transform: scale(1.05);
+}
+
+/* ESTILO DO TOPO DO SITE */
+section.topo-do-site{
+    padding: 40px 4%;
+}
+
+
+section.topo-do-site .flex{
+    align-items: center;
+     Justify-content: center;
+        gap:  90px;
+}
+.topo-do-site h1{
+    Color: #fff;
+      font-size: 40px;
+       line-height: 40px;
+}
+
+
+.topo-do-site h1  span{
+    color: #a10606;
+}
+
+.topo-do-site .txt-topo-site p{
+    color: #fff;
+  margin: 40px 0;
+}
+
+
+@keyframes nike{
+0%, 100% {
+    transform: translateY(0);
+}
+50% {
+    transform: translateY(-20px);
+}
+}
+
+.img-topo-site{
+    animation: nike 2s ease-in-out infinite alternate;
+}
+
+
+
+/* ESTILO DAS ESPECIALIDAES*/
+section.especialiades{
+    padding: 40px 4%;
+}
+
+section.especialiades .flex{
+    gap: 60px;
+}
+
+.especialiades .especialiades-box{
+    color: #fff;
+    padding: 40px;
+    border-radius: 20px;
+    border: 2px solid #fff;
+    margin-top: 45px;
+    transition: .2s;
+}
+
+.especialiades .especialiades-box{
+    transform: scale(1.05);
+    box-shadow: 0 0 8px #fff;
+}
+
+
+.especialiades .especialiades-box i{
+ font-size: 60px;
+ color: #a10606;
+}
+
+.especialiades .especialiades-box h3{
+    font-size: 26px;
+    margin: 15px 0;
+}
+.centro{
+text-align: center;
+width: 160%;
+color: #fff;
+
+
+}
+.t5{
+    text-align: center;
+    width: 160%;
+    color: #fff;
+}
+.t8{
+    text-align: center;
+    width: 85%;
+    font-size: 30px;
+    color: #a10606;
+    
+}
+.t2{
+    text-align: center;
+    width:85%;
+    font-size: 30px;
+    color: #a10606;
+    
+}
+.t3{
+    text-align: center;
+    width: 85%;
+    font-size: 30px;
+    color: #fff;
+}
+.t9{
+    text-align: center;
+    width: 85%;
+    font-size: 20px;
+    color: #fff;
+}
+.t10{
+    text-align: center;
+    width: 90%;
+    font-size: 30px;
+    color: #a10606;
+}
+.t11{
+    text-align: center;
+    width: 95%;
+    font-size: 30px;
+    color: #fff;
+    
+}
+.t12{
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+    color: #fff;
+}
+.b1 img{
+    width: 15vw;
+}
+.t5 p{
+    border: #a10606;
+    border-radius: 8px;
+    
+}
+
+section.Especialidades{
+    padding: 250px;
+}
+section.Sobre{
+    padding: 250px;
+}
+section.Projetos{
+    padding: 250px;
+}
+
+.especialiades-box{
+   color: aliceblue;
+   padding: 40px;
+   margin-top: 45px;
+   border-radius: 25px;
+   transition: .2s;
+}
+.especialiades .especialiades-box:hover{
+    
+}
+
+
+
+footer{
+    padding: 60px 4%;
+    box-shadow: 0 0 40px 10px rgb(163, 0, 0);
+}
+footer.flex{
+    justify-content: space-between;
+}
+footer .line-footer{
+    padding: 10px 0;
+}
+.borda{
+    border-top: 2px solid rgb(163, 0, 0);
+}
+footer.line-footer p{
+    color: #fff;
+}
+footer .line-footer p i{
+    color: #9c0202;
+    font-size: 22px;
+}
+.whithe{
+    color: #fff;
+
+}
+.borda p{
+    color: #efefef;
+}
+.logo img{
+    border-bottom: 40px;
+}
